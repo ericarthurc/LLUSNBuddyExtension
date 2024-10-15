@@ -1,0 +1,26 @@
+{
+  "name": "LLU SN Buddy",
+  "description": "Type 'sn ' and your search term to instantly search Loma Linda's Service",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "omnibox": {
+    "keyword": "sn"
+  },
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "sn16.png",
+      "32": "sn32.png"
+    }
+  },
+  "icons": {
+    "16": "sn16.png",
+    "32": "sn32.png",
+    "48": "sn48.png",
+    "128": "sn128.png"
+  }
+}
